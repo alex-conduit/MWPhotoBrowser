@@ -8,9 +8,9 @@
 
 #import "MWPhoto.h"
 #import "MWPhotoBrowser.h"
-#import "SDWebImageDecoder.h"
-#import "SDWebImageManager.h"
-#import "SDWebImageOperation.h"
+#import <SDWebImage/SDWebImageDecoder.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/SDWebImageOperation.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 
 @interface MWPhoto () {
